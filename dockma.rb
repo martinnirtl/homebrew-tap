@@ -2,16 +2,16 @@
 class Dockma < Formula
   desc "Level up your docker-compose game!"
   homepage "https://github.com/martinnirtl/dockma"
-  version "1.0.0-alpha3"
+  version "1.0.0-alpha4"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/martinnirtl/dockma/releases/download/v1.0.0-alpha3/dockma-1.0.0-alpha3-darwin-x86_64.tar.gz"
-    sha256 "6a67dbe9eebeeff71443a4a023ecbafa66ca4378b63386e001b6c545038ec14a"
+    url "https://github.com/martinnirtl/dockma/releases/download/v1.0.0-alpha4/dockma-1.0.0-alpha4-darwin-x86_64.tar.gz"
+    sha256 "dae53a2d79fb252490561ed1274f1a76fdfbd721c7a0ffbace9d3af753555543"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/martinnirtl/dockma/releases/download/v1.0.0-alpha3/dockma-1.0.0-alpha3-linux-x86_64.tar.gz"
-      sha256 "8be3ec9453e42fa13fe69c447597069bb32c78d3984a21a1b53b4fbc93ec0a19"
+      url "https://github.com/martinnirtl/dockma/releases/download/v1.0.0-alpha4/dockma-1.0.0-alpha4-linux-x86_64.tar.gz"
+      sha256 "c6e741303849eafb9035ed107c66196ab499e0ccd88946ca7ae5c3e227314668"
     end
   end
 
