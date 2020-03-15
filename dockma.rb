@@ -7,11 +7,11 @@ class Dockma < Formula
 
   if OS.mac?
     url "https://github.com/martinnirtl/dockma/releases/download/v1.0.0/dockma-1.0.0-darwin-x86_64.tar.gz"
-    sha256 "9eaf66c512b9c79f15b4aa6e2b42ad0b91fcd9431530e423cbf038e69b9a6dbb"
+    sha256 "06b769cc822fcf601daf0507bdc4bcb39d300cc42d57c35e54758e951758f24b"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/martinnirtl/dockma/releases/download/v1.0.0/dockma-1.0.0-linux-x86_64.tar.gz"
-      sha256 "5859ebe4f39e2a81b46d0c0e96629c11edc0a778a82696f4e2c5227108482ae2"
+      sha256 "1be3db2a1556d0bd5ec32df9c625fd7960fea9afc158c99673dfedd68425a7b4"
     end
   end
 
