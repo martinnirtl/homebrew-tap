@@ -5,11 +5,11 @@
 class Hosts < Formula
   desc "Manage host entries - a simple tool for a simple, but annoying task!"
   homepage "https://github.com/martinnirtl/hosts-cli"
-  version "0.2.2"
+  version "0.2.3"
 
   on_macos do
-    url "https://github.com/martinnirtl/hosts-cli/releases/download/v0.2.2/hosts_Darwin_all.tar.gz"
-    sha256 "5c81ad62b1520f4598bc2ea6a7e1ef1afe59d0c548746092b149102fd9c6e254"
+    url "https://github.com/martinnirtl/hosts-cli/releases/download/v0.2.3/hosts_macos_all.tar.gz"
+    sha256 "279576947920c0a6d061927634ca1ee8ba803fa645876b7b24860b35e5e14eec"
 
     def install
       bin.install "hosts"
@@ -18,8 +18,8 @@ class Hosts < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/martinnirtl/hosts-cli/releases/download/v0.2.2/hosts_Linux_x86_64.tar.gz"
-      sha256 "f86be272297c6a7bc7b4e6dda10b455503376db2c43c960cdd94095a89b9fcaa"
+      url "https://github.com/martinnirtl/hosts-cli/releases/download/v0.2.3/hosts_linux_x86_64.tar.gz"
+      sha256 "740bba83dd2de7a550582382da034faaaba100129e2422c69c8360f51e55705c"
 
       def install
         bin.install "hosts"
